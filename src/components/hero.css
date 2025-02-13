@@ -1,0 +1,5 @@
+.backGroundImage {
+    background-image: url(/image.png);
+    filter: brightness(55%);
+}
+
