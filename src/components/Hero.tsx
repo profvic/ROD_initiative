@@ -3,7 +3,7 @@ import './hero.css';
 
 export default function Hero() {
   return (
-    <div id="home" className="relative h-screen">
+    <div id="home" className="relative h-screen fade-in">
       <div 
         className="absolute inset-0 bg-cover bg-center backGroundImage">
         <div className="absolute inset-0 "></div>
