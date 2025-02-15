@@ -1,24 +1,14 @@
-import Navbar from './components/navbar';
-import Hero from './components/Hero';
-import About from './components/About';
-import Events from './components/Events';
-import Footer from './components/Footer';
-import Programs from './components/programs';
+
+import HomePage from './components/pages/HomePage';
 
 function App() {
  
 
   return (
     <div className="min-h-screen">
-      
-      <Navbar />
-      <Hero />
-      <About />
-      <Programs />
-      <Events />
-      <Footer />
+      <HomePage />
     </div>
   );
 }
 
-export default App
+export default App 
