@@ -1,0 +1,30 @@
+
+@media screen and (max-width: 640px) {
+    #programs{
+               
+    }
+    #program-flex{
+        flex-direction: column;
+    }
+    
+    #program-text{
+        width: 90vw;
+        margin: auto;
+        text-align: justify;
+    }
+    #program-text-h2{
+        font-size: 24px;
+
+    }
+    #program-text-p{
+        margin-top: 20px;
+        width: 100%;
+        text-align: justify;
+    }
+    #program-cards{
+        width: 90vw;
+        margin-bottom: auto;
+        margin-top: 20px;
+    }
+    
+}

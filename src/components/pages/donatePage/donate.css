@@ -1,4 +1,20 @@
 .donate-hero{
     background-image: url('./donate-page-bg.jpg');
-    filter: brightness(50%);
+    filter: brightness(40%);
+    overflow: hidden;
+}
+
+@media  screen and (max-width: 640px) {
+    #donate-hero-p {
+        padding: 10px;
+
+    }
+    
+}
+@media screen and (max-width: 1240px) {
+    .donate-hero {
+        height: 655px;
+
+    }
+    
 }

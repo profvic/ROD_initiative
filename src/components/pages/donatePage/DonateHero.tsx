@@ -2,13 +2,14 @@ import './donate.css';
 
 export default function DonateHero() {
   return (
-    <section id="donate" className="bg-cover bg-center py-20 relative donate-hero">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
-          <h2 className="text-3xl font-bold text-white mb-4">Your Support Empowers <span>Change</span></h2>
-          <p className="text-gray-300">Dedicated to unlocking potential through education, equality, and opportunity, transforming lives and communities across Africa.</p>
-        </div>
+    <div id="donate" className='relative h-[655px] py-0' >
+      <div 
+      className="absolute inset-0 h-screen bg-cover bg-center relative donate-hero">
       </div>
-    </section>
+        <div className="absolute inset-0 z-10 py-40 text-center items-center mt-16">
+          <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">Your Support <br /> Empowers <span style={{color:"#14A800"}}>Change</span></h1>
+          <p id='donate-hero-p' className="text-gray-300 text-xl">Dedicated to unlocking potential through education, equality, and <br /> opportunity, transforming lives and communities across Africa.</p>
+        </div>
+    </div>
   );
 }

@@ -1,0 +1,32 @@
+/*For small screens*/
+
+@media screen and (max-width: 640px)  { 
+    #how-to-donate{
+        margin-top: 30px;
+        margin-bottom: 20px;
+        padding: 5px;
+    }
+    #HTDContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+    }
+    #one-time-donation{
+        width: 90vw;
+        margin: auto;
+    }
+    #monthly-donation{
+        width: 90vw;
+        margin: auto;
+    }    
+}
+
+@media screen and (min-width: 640px)  { 
+    #how-to-donate{
+        z-index: 3;
+    }
+   
+    
+}

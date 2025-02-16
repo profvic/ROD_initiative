@@ -1,6 +1,8 @@
 @import "tailwindcss";
 html {
     scroll-behavior: smooth;
+    font-family: 'Inter';
+    font-optical-sizing: auto;
   }
 
   /* Fade-in animation */
@@ -65,4 +67,11 @@ html {
   
   .fade-scale {
     animation: fadeScale 0.8s ease-out forwards;
+  }
+
+  @media screen and (max-width: 640px) {
+    #root {
+      width: 100vw;
+    }
+    
   }
