@@ -1,4 +1,4 @@
-import './donate-page-bg.jpg';
+import './donate.css';
 
 export default function DonateHero() {
   return (
