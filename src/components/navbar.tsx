@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Menu, X, ChevronDownIcon } from 'lucide-react';
 import { Link } from 'react-router';
+import { HashLink } from 'react-router-hash-link';
 import './navbar.css'
 
 export default function Navbar() {
@@ -17,8 +18,8 @@ export default function Navbar() {
           </div>
           
           <div className="hidden md:flex items-center space-x-8">
-            <Link to="/" className="text-gray-700 hover:text-green-600 transition-colors">Home</Link>
-            <a href="#About" className="text-gray-700 hover:text-green-600 transition-colors">About Us</a>
+            <HashLink to="/#home" className="text-gray-700 hover:text-green-600 transition-colors">Home</HashLink>
+            <HashLink to="/#About" className="text-gray-700 hover:text-green-600 transition-colors">About Us</HashLink>
             {/* Dropdown Container */}
             <div className="relative">
               {/* Dropdown Button */}
@@ -42,11 +43,11 @@ export default function Navbar() {
           </button>            
             <a href="#ourteam" className="text-gray-700 hover:text-green-600 transition-colors">Our Team</a>
             
-            <Link to="/donate" 
+            <HashLink to="/donate#donate" 
               className="bg-green-600 text-white px-6 py-2 rounded-md hover:bg-green-700 transition-colors shadow-sm hover:shadow-md"
             >
               Donate Now
-            </Link>
+            </HashLink>
           </div>
 
           <div className="md:hidden flex items-center">
