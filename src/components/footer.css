@@ -1,0 +1,32 @@
+
+@media screen and (max-width: 640px) {
+    footer{
+
+    }
+    #foo-logo{
+        width: 162px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #foo-description{
+        width: 90vw;
+        margin: auto;
+    }
+    #foo-socials{
+        width: 104px;
+        margin: 16px auto;
+    }
+    #foo-legals{
+        width: 115px;
+        margin: auto;
+        text-align: center;
+    }
+    #foo-legal-child{
+        padding-left: auto;
+        padding-right: auto;
+    }
+    #foo-l-1{
+        margin: auto;
+    }
+    
+}

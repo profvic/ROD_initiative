@@ -1,6 +1,7 @@
 
 import { Facebook, Linkedin, Instagram } from 'lucide-react';
-
+import './footer.css';
+import { Link } from 'react-router';
 
 export default function Footer() {
   return (
@@ -8,15 +9,15 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid md:grid-cols-4 gap-8">
           <div>
-            <div className="flex items-center mb-4">
+            <div id='foo-logo' className="flex items-center mb-4">
               <img className="h-6 w-6 text-green-500" src='/ROD.png'/>
               <span className="ml-2 text-xl font-bold">ROD Initiative</span>
             </div>
-            <p className="text-gray-400">
+            <p id='foo-description' className="text-gray-400">
             Dedicated to unlocking potential through education, equality, and opportunity, transforming lives and communities across Africa.            </p>
             <p className="text-gray-400 mt-4">
             Follow Us on Social Media</p> 
-            <div className='flex space-x-4 mt-4'>
+            <div id='foo-socials' className='flex space-x-4 mt-4'>
             <Facebook color="#0000ff" />  <Linkedin color="#0000ff" />  <Instagram color="#ff0080" />  
             </div>
           </div>
@@ -34,15 +35,15 @@ export default function Footer() {
 
           <div>
             <h3 className="text-lg font-semibold mb-4">Legal Information</h3>
-            <ul className="space-y-4">
-              <li className="flex items-center text-gray-400">
-                Privacy Policy
+            <ul id='foo-legals' className="space-y-4">
+              <li id='foo-legal-child' className="flex items-center text-gray-400">
+                <Link to='' id='foo-l-1'>Privacy Policy</Link>
               </li>
-              <li className="flex items-center text-gray-400">
-                Terms of use
+              <li id='foo-legal-child' className="flex items-center text-gray-400">
+                <Link to='' id='foo-l-1'>Terms of use</Link>
               </li>
-              <li className="flex items-center text-gray-400">
-                Donation
+              <li id='foo-legal-child' className="flex items-center text-gray-400">
+                <Link to='' id='foo-l-1' >Donation</Link>
               </li>
             </ul>
           </div>
