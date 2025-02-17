@@ -4,7 +4,12 @@ html {
     font-family: 'Inter';
     font-optical-sizing: auto;
   }
-
+#root {
+    max-width: 1400px;
+    margin: 0;
+   /* padding: 2rem;*/
+    text-align: center;
+  }
   /* Fade-in animation */
 @keyframes fadeIn {
     from {
