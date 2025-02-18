@@ -1,5 +1,6 @@
 
 import { Link } from 'react-router';
+import { HashLink } from 'react-router-hash-link';
 import './hero.css';
 
 export default function Hero() {
@@ -24,12 +25,12 @@ export default function Hero() {
           >
             Donate
           </Link>
-          <a
-            href="#donate" id='volunteer-button'
+          <HashLink
+            to="/signup#signup" id='volunteer-button'
             className="inline-block w-50 text-sm ml-4 bg-green-50 text-stone-500 px-8 py-3 rounded-md text-lg font-medium hover:bg-green-200 transition-colors "
           >
             Become a Volunteer
-          </a>
+          </HashLink>
         </div>
       </div>
     </div>
