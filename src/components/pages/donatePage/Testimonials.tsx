@@ -2,7 +2,7 @@ import './Testimonials.css';
 export default function Testimonials() {
     return (
         <div id="testimonials" className="bg-[#fbfbfb] px-10 py-10">
-            <h1 className="mb-5 text-4xl">See the difference you're making</h1>
+            <h1 className="mb-10 text-4xl">See the difference you're making</h1>
             <div id='cardContainer' className="flex gap-4 sm:flex-row">
                 {/* Card 1 */}
                 <div id="tCard" className="flex-1 h-[342px] rounded-[20px] bg-white sm:w-full">

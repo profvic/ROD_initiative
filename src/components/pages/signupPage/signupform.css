@@ -1,0 +1,95 @@
+.bgimage{
+    display: flex;
+    width: 50%;
+    max-height: 1574px;
+    max-width: 633px;
+    justify-content: right;
+        
+}
+
+.form-container {
+    width: 100%;
+    max-width: 1400px;
+    margin-top: auto;
+    padding: 30px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    display: flex;
+    margin-bottom: 0px;
+    gap: 3em;
+  }
+
+  h1{
+    font-weight: bold;
+    font-size: 40px;
+  }
+  h2{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 2rem;
+  }
+  p{
+    font-size: 20px;
+    margin-bottom: 2rem;
+  }
+  
+  .volunteer-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    width: 50%;
+    max-height: 1673px;
+
+  }
+  
+  .input-group, .skills, .availability, .experience, .upload {
+    margin: 35px 0 35px 0;
+  }
+  
+  label {
+    font-weight: light;
+    margin-bottom: 5px;
+    display: flex;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .checkbox-group, .radio-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .checkbox-group label, .radio-group label {
+    flex: 1 1 45%;
+  }
+  
+  .submit-button {
+    width: 40%;
+    background: rgb(154, 236, 154);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .upload{
+    width: 40%;
+  }
+  
+  @media (max-width: 600px) {
+    .checkbox-group, .radio-group {
+      flex-direction: column;
+    }
+  }
+  
